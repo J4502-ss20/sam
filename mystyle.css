@@ -1,0 +1,76 @@
+html {
+	font-size: 100%
+}
+
+
+p {
+    font-family: "PT Serif italic", Georgia, "Times New Roman", serif;
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	background-color: #FEF296
+}
+
+.italic {
+	font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat 700", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	background-color: #1F91D7
+
+}
+
+h2 {
+	font-size: 1.5rem
+}
+
+body{
+	background-color:#D0EEE8;
+}
+
+
+a img { border: none; }
+
+#container{
+    width: 95%;
+    background-color: #EEECD0;
+    margin: 0 auto;
+}
+
+
+
+#nav {
+    padding: 0;
+		list-style-type: none;
+}
+
+
+#nav li {
+    list-style-type: none;
+    float: left;
+		text-decoration: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+
+#nav a:link, a:visited {
+	display:block;
+    color: #8704FD;
+    background-color: #98bf21;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+		list-style-type: none;
+    padding: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, a:active {
+    background-color: #EEECD0;
+}
