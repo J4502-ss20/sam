@@ -7,12 +7,14 @@ p {
     font-family: "PT Serif italic", Georgia, "Times New Roman", serif;
 	font-size: 1.25rem;
 	line-height: 1.5rem;
+	text-align: center;
 	background-color: #FEF296
 }
 
 .italic {
 	font-style: italic;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat 700", Helvetica, Arial, sans-serif;
@@ -21,7 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 2.5rem;
 	font-weight: bold;
-	background-color: #1F91D7
+	background-color: #1F91D7;
+	text-align: center;
 
 }
 
@@ -47,13 +50,21 @@ a img { border: none; }
 #nav {
     padding: 0;
 		list-style-type: none;
+
 }
 
+ul {
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	text-align: center;
+}
 
 #nav li {
     list-style-type: none;
-    float: left;
+    float: center;
 		text-decoration: none;
+		text-align: center;
     margin: 0;
     padding: 0;
     width: 25%;
@@ -62,13 +73,15 @@ a img { border: none; }
 #nav a:link, a:visited {
 	display:block;
     color: #8704FD;
-    background-color: #98bf21;
+    background-color: #FECDE0;
     font-weight: bold;
+		float: center;
     text-align:center;
     text-decoration: none;
 		list-style-type: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family:monospace, sans-serif;
+		font-size: .89rem
 }
 
 #nav a:hover, a:active {
