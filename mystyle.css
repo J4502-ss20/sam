@@ -117,7 +117,11 @@ body {
 	margin: 5px;
 	background: ##735ba6;
 	border-radius: 3px
+
 }
+
+.item a:hover, .item  a:active {
+    background-color: ##ddd0ee;}
 
 a:link, a:visited {
 	display:block;
